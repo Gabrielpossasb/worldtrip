@@ -22,7 +22,7 @@ export function SwiperContnents() {
          onSlideChange={() => console.log('slide change')}
       >
          <SwiperSlide onClick={() => push('/country')}>
-            <Image src={'Europe.jpg'} w={"full"} position={'relative'}/>
+            <Image src={'Europe.jpg'} alt={'europa'} w={"full"} position={'relative'}/>
                <Text textAlign={'center'} position={'absolute'} left={'15%'} top={'30%'} color={'white'} fontWeight={"bold"} fontSize={'4xl'}>
                   Europa<br/>
                   <span style={{fontWeight: 'normal', fontSize: '22px'}}>
@@ -31,7 +31,7 @@ export function SwiperContnents() {
                </Text>
          </SwiperSlide>
          <SwiperSlide  onClick={() => push('/country')}>
-            <Image src={'Europe.jpg'} w={"full"} position={'relative'}/>
+            <Image src={'Europe.jpg'} alt={'europa'} w={"full"} position={'relative'}/>
                <Text textAlign={'center'} position={'absolute'} left={'15%'} top={'30%'} color={'white'} fontWeight={"bold"} fontSize={'4xl'}>
                   Ásia<br/>
                   <span style={{fontWeight: 'normal', fontSize: '22px'}}>
@@ -40,7 +40,7 @@ export function SwiperContnents() {
                </Text>
          </SwiperSlide>
          <SwiperSlide  onClick={() => push('/country')}>
-            <Image src={'Europe.jpg'} w={"full"} position={'relative'}/>
+            <Image src={'Europe.jpg'} alt={'europa'} w={"full"} position={'relative'}/>
                <Text textAlign={'center'} position={'absolute'} left={'15%'} top={'30%'} color={'white'} fontWeight={"bold"} fontSize={'4xl'}>
                   África<br/>
                   <span style={{fontWeight: 'normal', fontSize: '22px'}}>

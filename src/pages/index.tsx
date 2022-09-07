@@ -21,7 +21,7 @@ export default function Home() {
           
         <Wrap px={8} py={10} spacingX={'24'} spacingY={'4'}>
           { words.map( data => (
-            <Flex alignItems={'center'} gap='10px' pl={(data === 'e mais...') && '25%'}>
+            <Flex id={data} alignItems={'center'} gap='10px' pl={(data === 'e mais...') && '25%'}>
               <MdLens color="#FFBA08" size={14}/>
               <Text>{data}</Text>
             </Flex>
