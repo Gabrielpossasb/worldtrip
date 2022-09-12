@@ -1,5 +1,5 @@
 <div align='center'>
-   <img height='140px' src='./public/readmeLogo.svg' alt='logo para github'/>
+   <img height='140px' src='./public/Thumb-worldtrip.png' alt='logo para github'/>
       
    #### Uma aplicação responsiva feita com o ChackraUi, para navegar entre varias cidades dos 7 continentes ####
 
