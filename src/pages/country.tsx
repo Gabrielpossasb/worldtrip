@@ -16,7 +16,17 @@ export default function Country() {
                   Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais,
                   o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
                </Text>
+               <Flex color={'yellow.400'} mt={'4'} fontSize={'4xl'} gap={'10'} fontWeight={'semibold'}>
+                  <Text className=''>50<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>países</Text></Text>
+                  <Text className=''>60<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>línguas</Text></Text>
+                  <Text className=''>24<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>cidades +100</Text></Text>
+               </Flex>
+               <Text fontSize={"4xl"} fontWeight={'semibold'} mt={'8'}>Cidades +100</Text>
+
+               <Box>
+               </Box>
             </Container>
+
       </Flex>
    )
 }
