@@ -10,7 +10,7 @@ export const theme = extendTheme({
       }
    },
    fonts: {
-      body: "Poppins",
+      body: "Poppins ",
    },
    colors: {
       

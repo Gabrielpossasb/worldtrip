@@ -4,6 +4,7 @@ import { Header } from "../components/Header";
 import { SwiperContnents } from "../components/SwiperContnents";
 import { MdLens } from 'react-icons/md'
 
+
 export default function Home() {
 
   const [words, setWords] = useState(['vida noturna', 'praia', 'moderno', 'clássico', 'e mais...'])

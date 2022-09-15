@@ -24,7 +24,7 @@ export function SwiperContnents() {
          <SwiperSlide onClick={() => push('/country')}>
             <Image src={'Europe.jpg'} alt={'europa'} w={"full"} position={'relative'}/>
                <Text textAlign={'center'} position={'absolute'} left={'15%'} top={'30%'} color={'white'} fontWeight={"bold"} fontSize={'4xl'}>
-                  Europa<br/>
+                  Ásia<br/>
                   <span style={{fontWeight: 'normal', fontSize: '22px'}}>
                   O continente mais antigo
                   </span>
