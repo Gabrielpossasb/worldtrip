@@ -20,9 +20,9 @@ export default function Home() {
 
       <Box flexDirection={"column"} alignItems={'center'} color={'gray.600'} bg={'#e7e7e7'} fontSize={'18px'} textColor={'#47585B'} fontWeight={"medium"} pb={'10'}>
           
-        <Wrap px={8} py={10} spacingX={'24'} spacingY={'4'}>
+        <Wrap px={8} py={10} w={'full'} flex={1} justify={'center'} spacingX={'24'} spacingY={'4'}>
           { words.map( data => (
-            <Flex key={data} alignItems={'center'} gap='10px' pl={(data === 'e mais...') && '25%'}>
+            <Flex key={data} alignItems={'center'} gap='10px' pl={[`${(data === 'e mais...') && '25%'}, ''`]}>
               <MdLens color="#FFBA08" size={14}/>
               <Text>{data}</Text>
             </Flex>
