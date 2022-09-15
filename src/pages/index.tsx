@@ -10,7 +10,7 @@ export default function Home() {
   const [words, setWords] = useState(['vida noturna', 'praia', 'moderno', 'clássico', 'e mais...'])
 
   return (
-    <Box bgImage={"url('bg.jpg')"} bgSize={"cover"} h={'full'}>
+    <Box bgImage={"url('bg.jpg')"} bgSize={"cover"} > 
       <Header/>
 
       <Stack p={5} py={8} spacing='10px' >
@@ -33,8 +33,9 @@ export default function Home() {
 
         <Text pb={'4'} align={"center"} fontWeight={'semibold'}>Vamos nessa?<br/>Então escolha seu constinente</Text>
 
-        <SwiperContnents/>
-
+        <Center w={'full'} bg={'#2b2c30'}>
+          <SwiperContnents/>
+        </Center>
       </Box>
     </Box>
   )
