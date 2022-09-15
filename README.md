@@ -1,7 +1,7 @@
 <div align='center'>
    <img height='140px' src='./public/Thumb-worldtrip.png' alt='logo para github'/>
       
-   #### Uma aplicação responsiva feita com o ChackraUi, para navegar entre varias cidades dos 7 continentes ####
+   #### Uma aplicação mobile feita com o ChackraUi, para navegar entre varias cidades dos 7 continentes ####
 
    :link: <http://worldtrip-omega.vercel.app/> :link:
 </div>
