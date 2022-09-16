@@ -13,7 +13,7 @@ export function SwiperContnents() {
    const { push } = useRouter()
 
    return (
-      <Flex w={'full'} maxW={[ 'full', '600px']} h={['250px', '400px']} maxH={'400px'} bg={'#222'} >
+      <Flex w={'full'} maxW={[ 'full', '60%']} h={['250px', '400px']} maxH={'400px'} bg={'#222'} >
       <Swiper
          modules={[Navigation, Pagination, Scrollbar, A11y]}
          slidesPerView={1}
