@@ -1,7 +1,7 @@
-{
-   "europa":{
+[
+   {
       "continente": "Europa",
-      "image": "",
+      "image": "https://naplaca.com.br/wp-content/uploads/2017/10/touristic-louvre-back.jpg",
       "países": 50,
       "línguas": 60,
       "qtdCidades": 240,
@@ -56,7 +56,7 @@
          }
       ]
    },
-   "america":{
+   {
       "continente": "América",
       "image": "",
       "países": 30,
@@ -100,7 +100,7 @@
          }
       ]
    },
-   "oceania":{
+   {
       "continente": "Oceania",
       "image": "",
       "países": 30,
@@ -144,9 +144,9 @@
          }
       ]
    },
-   "asia":{
+   {
       "continente": "Ásia",
-      "image": "",
+      "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/viagem-a-asia-740x360.jpg",
       "países": 30,
       "línguas": 50,
       "qtdCidades": 315,
@@ -188,9 +188,9 @@
          }
       ]
    },
-   "africa":{
+   {
       "continente": "África",
-      "image": "",
+      "image": "https://s204818.gridserver.com/wp-content/uploads/2018/06/Africa-do-sul-viaj-1.jpg",
       "países": 30,
       "línguas": 50,
       "qtdCidades": 315,
@@ -232,4 +232,4 @@
          }
       ]
    }
-}
+]

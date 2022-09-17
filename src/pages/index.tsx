@@ -1,5 +1,5 @@
 import { Box, ButtonGroup, Center, Container, Flex, IconButton, Image, Stack, Text, useBreakpointValue, VStack, Wrap } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Header } from "../components/Header";
 import { SwiperContnents } from "../components/SwiperContnents";
 import { MdLens } from 'react-icons/md'

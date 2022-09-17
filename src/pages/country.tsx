@@ -1,5 +1,7 @@
 import { Box, Center, Text, Flex, Container, Image, useBreakpointValue, Wrap } from "@chakra-ui/react";
+import { useContext } from "react";
 import { Header } from "../components/Header";
+import { ApiContext } from "../context/useSelectCountry";
 
 interface ApiCidadesProps {
    
@@ -16,21 +18,24 @@ export default function Country() {
       lg: true,
    })
 
-   const {asia} = require('../../cidades.json')
-
-   console.log(asia.cidades.map((data: ApiCidadesProps) => (data.city === 'Jacarta')))
+   const {apiContinentSelect} = useContext(ApiContext)
 
    return (
-      <Flex bg={'#F5F8FA'} flex={1} flexDirection={'column'} textColor={'#47585B'}>
-         <Header/>
+      <Flex bg={'#F5F8FA'} flex={1} flexDirection={'column'} alignItems={'center'} textColor={'#47585B'}>
+            <Header/>
 
-            <Flex bgImage={"url('Europe.jpg')"} bgSize={"cover"} h={['200px', '350px']} p={10} px={'10%'} justify={['center', 'flex-start']} alignItems={['center', 'end']}>
-               <Text fontSize={['3xl',"5xl"]} textColor={'white'} fontWeight={'semibold'}>{asia.continente}</Text>
+            <Flex flex={1} bg={'#312f2f'} w={'full'} justify={'center'}>
+               <Flex bgImage={apiContinentSelect.image} bgPosition={"center"} bgSize={"cover"} 
+                  bgRepeat={'no-repeat'} h={['200px','250px', '300px']} maxW={'700px'}  w={'full'} p={10} px={'10%'} 
+                  justify={['center', 'flex-start']} alignItems={['center', 'end']}>
+                  <Text fontSize={['3xl',"5xl"]} textColor={'white'} fontWeight={'semibold'}>{apiContinentSelect.continente}</Text>
+               </Flex>
             </Flex>
+         
 
-            <Flex flexDirection={'column'} px={"6%"} pt={12} gap={['4', '10']} justify={'center'}>
-               <Wrap flexDirection={['column', 'row']} justify={'space-between'}>
-                  <Text w={['full', '80%', '40%']} fontSize={['', 'xl']}>
+            <Flex flexDirection={'column'} maxW={'1330px'} px={"10%"} pt={12} gap={['4', '10']} >
+               <Wrap justify={'space-between'} spacing={'4'}>
+                  <Text w={['full', '80%', '50%']} fontSize={['', 'lg']}>
                      A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da 
                      Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais,
                      o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
@@ -44,10 +49,10 @@ export default function Country() {
 
                <Text fontSize={"4xl"} fontWeight={'semibold'}>Cidades +100</Text>
 
-               <Wrap p={4} pb={8} spacing={16} flexDirection={"column"}>
+               <Wrap pb={8} spacing={16} justify={'center'} flexDirection={"column"}>
                   
                   {
-                     asia.cidades.map( (data: ApiCidadesProps) => (
+                     apiContinentSelect.cidades.map( (data: ApiCidadesProps) => (
                         <Flex key={data.id} flexDirection={"column"} fontSize={'xl'} rounded={"xl"} shadow={"xl"}>
                            
                            <Image h={'200px'} w={'300px'} src={data.image} alt="imagem city"/>
