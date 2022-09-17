@@ -10,7 +10,7 @@ export function Header() {
    return (
       <Center bg={'whiteAlpha.900'} h='10' >
          { (asPath === '/country') && (
-            <Button w={10} h={10} position={'absolute'} bg={'#fafafa'} left={'4%'} onClick={() => push('/')}>
+            <Button w={10} h={14} position={'absolute'} bg={'#fafafa'} left={'4%'} onClick={() => push('/')}>
                <Icon as={FiChevronLeft} fontSize={26}/>
             </Button>
          )}

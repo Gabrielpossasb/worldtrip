@@ -15,7 +15,7 @@ export function SwiperContnents() {
    const {apiContinent, setContinentSelect} = useContext(ApiContext)
    const { push } = useRouter()
 
-   function handleSelectContinent(id: string) {
+   function handleSelectContinent(id: number) {
       setContinentSelect(
          id,
    )
@@ -34,14 +34,14 @@ export function SwiperContnents() {
             onSlideChange={() => console.log('slide change')}
          >
             { apiContinent.map( data => (
-            <SwiperSlide key={data.continente} onClick={() => handleSelectContinent(data.continente)}>
+            <SwiperSlide key={data.id} onClick={() => handleSelectContinent(data.id)}>
                <Center bgSize={'cover'} bgRepeat={'no-repeat'} w={"full"} h={'full'}
                   bgImage={data.image}>
                   
                   <Text bg={'blackAlpha.500'} p={'2'} rounded={'xl'} textAlign={'center'} color={'white'} fontWeight={"bold"} fontSize={'4xl'}>
                      {data.continente}<br/>
                      <span style={{fontWeight: 'normal', fontSize: '22px'}}>
-                     O continente mais antigo
+                     {data.subDescription}
                      </span>
                   </Text>
                </Center>

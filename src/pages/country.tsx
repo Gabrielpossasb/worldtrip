@@ -33,17 +33,15 @@ export default function Country() {
             </Flex>
          
 
-            <Flex flexDirection={'column'} maxW={'1330px'} px={"10%"} pt={12} gap={['4', '10']} >
+            <Flex flexDirection={'column'} maxW={'1330px'} px={['6%', "10%"]} pt={12} gap={['4', '10']} >
                <Wrap justify={'space-between'} spacing={'4'}>
                   <Text w={['full', '80%', '50%']} fontSize={['', 'lg']}>
-                     A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da 
-                     Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais,
-                     o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+                     {apiContinentSelect.description}
                   </Text>
-                  <Flex color={'yellow.400'} mt={'4'} fontSize={'4xl'} gap={'10'} fontWeight={'semibold'}>
-                     <Text className=''>50<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>países</Text></Text>
-                     <Text className=''>60<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>línguas</Text></Text>
-                     <Text className=''>24<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>cidades +100</Text></Text>
+                  <Flex color={'yellow.400'} mt={'4'} fontSize={'4xl'} gap={['4','10']} fontWeight={'semibold'}>
+                     <Text className=''>{apiContinentSelect.países}<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>países</Text></Text>
+                     <Text className=''>{apiContinentSelect.línguas}<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>línguas</Text></Text>
+                     <Text className=''>{apiContinentSelect.qtdCidades}<br/><Text color={'#47585B'} fontWeight={'normal'} fontSize={'xl'}>população</Text></Text>
                   </Flex>
                </Wrap>
 
@@ -61,7 +59,7 @@ export default function Country() {
                                  <Text fontSize={"2xl"} textColor={'#47585B'} mb={'2'} fontWeight={'semibold'}>{data.city}</Text>
                                  {data.country}
                               </Text>
-                              <Image h={'14'} borderColor={'#a3a1a1'} borderRadius={"full"}  src={data.imageCountry}/>
+                              <Image h={'14'} w={'14'} borderColor={'#a3a1a1'} src={data.imageCountry}/>
                            </Flex>
                         </Flex>
                      ))

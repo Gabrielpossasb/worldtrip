@@ -1,11 +1,14 @@
 import { createContext, ReactNode, useState } from "react"
 
 interface ListCountry {
+   id: number,
    continente: string,
+   subDescription: string,
+   description: string,
    image: string,
    países: number,
    línguas: number,
-   qtdCidades: number,
+   qtdCidades: string,
    cidades: [],
 }
 
@@ -16,7 +19,7 @@ interface ApiProviderProps {
 interface ApiContextData {
    apiContinent: ListCountry[];
    apiContinentSelect: ListCountry;
-   setContinentSelect: ( id: string ) => void;
+   setContinentSelect: ( id: number ) => void;
 }
 
 export const ApiContext = createContext<ApiContextData>(
@@ -28,9 +31,9 @@ export function ApiProvider({children}: ApiProviderProps) {
 
    const [apiContinentSelect, setApiContinentSelect] = useState<ListCountry>(apiContinent[0])
 
-   function setContinentSelect(id: string) {
+   function setContinentSelect(id: number) {
       const select = apiContinent.filter((data: ListCountry) => {
-         return (data.continente === id)
+         return (data.id === id)
       })
       console.log(select)
       setApiContinentSelect(select[0])

@@ -1,155 +1,154 @@
 [
    {
+      "id": 1,
       "continente": "Europa",
+      "subDescription": "O continente mais antigo",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "image": "https://naplaca.com.br/wp-content/uploads/2017/10/touristic-louvre-back.jpg",
       "países": 50,
-      "línguas": 60,
-      "qtdCidades": 240,
+      "línguas": 287,
+      "qtdCidades": "747 M",
       "cidades": [
          {
+            "id": 1,
             "city": "Londres",
-            "image": "",
+            "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/londres-big-ben.jpeg?quality=70&strip=info&w=1024&resize=1200,800",
             "country": "Reino Unido",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/great-britain-circular.png"
          },
          {
+            "id": 2,
             "city": "Paris",
-            "image": "",
+            "image": "https://f7j8i5n9.stackpathcdn.com/wp-content/uploads/2015/03/regiao-avenida-champs-elysees-paris-franca.png",
             "country": "França",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/2x/france-circular.png"
          },
          {
+            "id": 3,
             "city": "Roma",
-            "image": "",
+            "image": "https://h8f7z4t2.stackpathcdn.com/wp-content/uploads/2015/10/pontos-turisticos-em-roma.jpg",
             "country": "Itália",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/2x/italy-circular.png"
          },
          {
+            "id": 4,
             "city": "Palermo",
-            "image": "",
+            "image": "https://i0.wp.com/turismo.eurodicas.com.br/wp-content/uploads/2019/03/Palermo-1.jpg?fit=1360%2C907&ssl=1",
             "country": "Itália",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/2x/italy-circular.png"
          },
          {
+            "id": 5,
             "city": "Madrid",
-            "image": "",
+            "image": "https://thumbcdn-3.hotelurbano.net/6da5w5RlgT2Xf0eAJuomZSbXZFM=/1240x0/center/middle/filters:format(webp):strip_icc()/http://s3.amazonaws.com/legado-prod/prod/ofertas/imagens/2021/11/29/22/57/shutterstock_143885179.jpg",
             "country": "Espanha",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/2x/spain2-circular.png"
          },
          {
+            "id": 6,
             "city": "Berlim",
-            "image": "",
+            "image": "https://www.queroviajarmais.com/wp-content/uploads/2020/05/pontos-tur%C3%ADsticos-de-berlim.jpg",
             "country": "Alemanha",
-            "imageCountry": ""
-         },
-         {
-            "city": "Bruxelas",
-            "image": "",
-            "country": "Bélgica",
-            "imageCountry": ""
-         },
-         {
-            "city": "Copenhague",
-            "image": "",
-            "country": "Dinamarca",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/germany-circular.png"
          }
       ]
    },
    {
+      "id": 2,
       "continente": "América",
-      "image": "",
-      "países": 30,
-      "línguas": 50,
-      "qtdCidades": 315,
+      "subDescription": "O Novo Mundo",
+      "description": "A América é o segundo maior continente do mundo, com área total de 42.550.000 km². A população total é estimada em 1,002 bilhão de habitantes, e esse continente ficou marcado como o Novo Mundo por ter sido colonizado pelos Europeus. Subdividido em três subcontinentes: América do Norte, América do Sul e América Central.",
+      "image": "https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2022/07/estatua-da-liberdade-historia-e-caracteristicas-e1657977185184.webp",
+      "países": 36,
+      "línguas": 1061,
+      "qtdCidades": "1.030 B",
       "cidades": [
          {
             "id": 1,
             "city": "São Paulo",
-            "image": "",
+            "image": "https://www.consultoriarr.com.br/wp-content/uploads/2020/01/img-empreender-em-sao-paulo-o-que-voce-precisa-saber-sobre-o-assunto.jpg",
             "country": "Brasil",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/brazil-circular.png"
          },
          {
             "id": 2,
             "city": "Buenos Aires",
-            "image": "",
+            "image": "https://www.daninoce.com.br/wp-content/uploads/2018/01/o-que-voce-precisa-saber-antes-de-ir-a-buenos-aires-dani-noce-imagem-destaque-960x625.jpg",
             "country": "Argentina",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/argentina-circular.png"
          },
          {
             "id": 3,
             "city": "Nova York",
-            "image": "",
+            "image": "https://a.cdn-hotels.com/gdcs/production138/d1142/08366677-a8d0-4979-84d5-b54f93ca00e5.jpg?impolicy=fcrop&w=800&h=533&q=medium",
             "country": "Estados Unidos",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/usa-circular.png"
          },
          {
             "id": 4,
             "city": "Cidade do México",
-            "image": "",
+            "image": "https://www.vounajanela.com/wp-content/uploads/2017/11/mexico-1050x599.jpg",
             "country": "México",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/mexico-circular.png"
          },
          {
             "id": 5,
             "city": "Quito",
-            "image": "",
+            "image": "https://www.ecuadorhop.com/wp-content/uploads/2019/05/quito.jpg",
             "country": "Equador",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/344/ecuador-circular.png"
          }
       ]
    },
    {
+      "id": 3,
       "continente": "Oceania",
-      "image": "",
-      "países": 30,
-      "línguas": 50,
-      "qtdCidades": 315,
+      "subDescription": "O Continente de Ilhas",
+      "description": "A Oceania é o menor continente, sendo marcado pela presença de ilhas. O maior país desse continente é a Austrália, que ocupa quase 90% do território. Sua extensão territorial é de 8.526.000 km. Em suas ilhas abriga um meio ambiente completamente diferente do resto do mundo, além de ter tribos locais bem exóticas.",
+      "image": "https://www.carpemundi.com.br/wp-content/uploads/2020/08/fiji-oceania.jpeg",
+      "países": 14,
+      "línguas": 1000,
+      "qtdCidades": "43 M",
       "cidades": [
          {
             "id": 1,
             "city": "Sydney",
-            "image": "",
+            "image": "https://blog.rentcars.com/wp-content/uploads/2012/04/roteiro-australia-camberra-campbeltown-e-sydney-4-e1536096115721.jpg",
             "country": "Austrália",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/2x/australia-circular.png"
          },
          {
             "id": 2,
-            "city": "Buenos Aires",
-            "image": "",
-            "country": "Argentina",
-            "imageCountry": ""
+            "city": "Camberra",
+            "image": "https://rotadocanguru.com.br/wp-content/uploads/2018/03/canberra.jpg",
+            "country": "Austrália",
+            "imageCountry": "https://img.icons8.com/color/2x/australia-circular.png"
          },
          {
             "id": 3,
-            "city": "Camberra",
-            "image": "",
-            "country": "Austrália",
-            "imageCountry": ""
+            "city": "Port Moresby",
+            "image": "https://www.cruisemapper.com/images/ports/1311-d7a8c7c6c52.jpg",
+            "country": "Papua-Nova Guiné",
+            "imageCountry": "https://img.icons8.com/color/2x/papua-new-guinea-circular.png"
          },
          {
             "id": 4,
-            "city": "Port Moresby",
-            "image": "",
-            "country": "Papua-Nova Guiné",
-            "imageCountry": ""
-         },
-         {
-            "id": 5,
             "city": "Wellington",
-            "image": "",
+            "image": "https://catracalivre.com.br/wp-content/uploads/2019/03/nova-zelandia-wellington-dicas-o-que-fazer-910x607.jpg",
             "country": "Nova Zelândia",
-            "imageCountry": ""
+            "imageCountry": "https://img.icons8.com/color/2x/new-zealand-circular.png"
          }
       ]
    },
    {
+      "id": 4,
       "continente": "Ásia",
+      "subDescription": "O mais extenso e populoso",
+      "description": "A Ásia é continente que possui o maior território do mundo, com uma área total é de quase 45 milhões de km². Por causa da sua grande extensão, o continente tem onze fusos horários. Uma cultura milenar dos ancestrais que se relacionavam com a natureza, também com uma arquitetura típica. A culinária é bem exótica em certos locais, deivido aos governos socialistas durante a guerra fria e a revolução russa. ",
       "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/viagem-a-asia-740x360.jpg",
-      "países": 30,
-      "línguas": 50,
-      "qtdCidades": 315,
+      "países": 50,
+      "línguas": 2294,
+      "qtdCidades": "4.679 B",
       "cidades": [
          {
             "id": 1,
@@ -189,46 +188,49 @@
       ]
    },
    {
+      "id": 5,
       "continente": "África",
+      "subDescription": "O Berço da humanidade",
+      "description": "A África é o continente que possui a maior quantidade de etnias do Planeta Terra. É um dos mais antigos e acredita ter sido o berço da origem dos seres humanos. Por isso tem tantas tribos! Também é marcado por uma diversidade cultural de roupas, hábitos, línguas, cantigas e técnicas de caça muito vasta!",
       "image": "https://s204818.gridserver.com/wp-content/uploads/2018/06/Africa-do-sul-viaj-1.jpg",
-      "países": 30,
-      "línguas": 50,
-      "qtdCidades": 315,
+      "países": 54,
+      "línguas": 2144,
+      "qtdCidades": "1.373 B",
       "cidades": [
          {
             "id": 1,
-            "city": "Sydney",
-            "image": "",
-            "country": "Austrália",
-            "imageCountry": ""
+            "city": "Nairóbi",
+            "image": "https://cdn.travelsafe-abroad.com/wp-content/uploads/Colors_of_nairobi.jpg",
+            "country": "Quénia",
+            "imageCountry": "https://img.icons8.com/color/344/kenya-circular.png"
          },
          {
             "id": 2,
-            "city": "Buenos Aires",
-            "image": "",
-            "country": "Argentina",
-            "imageCountry": ""
+            "city": "Cidade do Cabo",
+            "image": "https://www.infoescola.com/wp-content/uploads/2010/05/cidade-do-cabo_92510755.jpg",
+            "country": "África do Sul",
+            "imageCountry": "https://img.icons8.com/color/344/south-africa-circular.png"
          },
          {
             "id": 3,
-            "city": "Camberra",
-            "image": "",
-            "country": "Austrália",
-            "imageCountry": ""
+            "city": "Cairo",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/9b/2f/5b/cairo.jpg?w=700&h=500&s=1",
+            "country": "Egito",
+            "imageCountry": "https://img.icons8.com/color/344/egypt-circular.png"
          },
          {
             "id": 4,
-            "city": "Cidade do México",
-            "image": "",
-            "country": "México",
-            "imageCountry": ""
+            "city": "Luanda",
+            "image": "https://content.r9cdn.net/rimg/dimg/ec/9d/01dfcc84-city-9951-172c0bb1d2b.jpg?width=1366&height=768&xhint=1953&yhint=905&crop=true",
+            "country": "Angola",
+            "imageCountry": "https://img.icons8.com/color/344/angola-circular.png"
          },
          {
             "id": 5,
-            "city": "Quito",
-            "image": "",
-            "country": "Equador",
-            "imageCountry": ""
+            "city": "Dacar",
+            "image": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSolxJFxJgd_rMVWRyzjG207Aae3Mz-_1vZqoY2IfzDbhTEugjgdrSFQ_tb04eGOe9k",
+            "country": "Senegal",
+            "imageCountry": "https://img.icons8.com/color/344/senegal-circular.png"
          }
       ]
    }

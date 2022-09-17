@@ -28,7 +28,7 @@ export default function Home() {
       <Header/>
 
       <Stack p={[5, 14]} py={8} spacing='10px' bgImage={["url('./assets/banner/mobile.png')", "url('./assets/banner/descktop.png')"]} bgSize={"cover"}>
-          <Text fontSize={"2xl"}>6 Continentes, <br/> infinitas possibilidades.</Text>
+          <Text fontSize={"2xl"}>5 Continentes, <br/> infinitas possibilidades.</Text>
           <Text fontWeight={"medium"} color={'gray.200'}>Chegou a hora de tirar do papel a viagem que você sempre sonhou.</Text>
         { isWideVersion && <Image position={'absolute'} top={12} right={'36'} src={'./assets/banner/Airplane.svg'} h={'260px'}/>}
       </Stack>
