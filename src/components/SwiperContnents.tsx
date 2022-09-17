@@ -34,7 +34,7 @@ export function SwiperContnents() {
             onSlideChange={() => console.log('slide change')}
          >
             { apiContinent.map( data => (
-            <SwiperSlide onClick={() => handleSelectContinent(data.continente)}>
+            <SwiperSlide key={data.continente} onClick={() => handleSelectContinent(data.continente)}>
                <Center bgSize={'cover'} bgRepeat={'no-repeat'} w={"full"} h={'full'}
                   bgImage={data.image}>
                   
