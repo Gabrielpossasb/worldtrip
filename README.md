@@ -13,6 +13,7 @@
 
 - Next
 - Vercel
+- Figma
 
 ## :rocket: Bibliotecas :
 
@@ -21,4 +22,3 @@
 - TypeScript
 - HTML
 - Swiper
-- Figma
